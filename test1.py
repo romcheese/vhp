@@ -36,7 +36,7 @@ class LinkedList:
         lst = list()
         while node != None:
             if node.value == val:
-                lst.append(node.value) # возвращаем value или Node(value)?
+                lst.append(node) # возвращаем value или Node(value)?
             node = node.next
         return lst # print(lst)?
 
