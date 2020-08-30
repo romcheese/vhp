@@ -86,6 +86,8 @@ class LinkedList:
                 lastNode.next = currentNode.next
                 if all == False:
                     return
+            elif currentNode.next == None:
+                return None
             node = node.next
 
 # s_list = LinkedList()
