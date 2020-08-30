@@ -73,22 +73,36 @@ class LinkedList:
 
     def delete(self, val, all = True or False):
         node = self.head
-        if node.value == val:
-            self.head = node.next
-            if all == False:
+        if node == None: # empty linked list
+            return None
+        if all == False:
+            if node.value == val:
+                self.head = node.next # correct
                 return
-        while True:
-            if node == None:
-                break
-            lastNode = node
-            currentNode = node.next
-            if currentNode.value == val:
-                lastNode.next = currentNode.next
-                if all == False:
+            while True:
+                lastnode = node
+                if node.next == None:
+                    break
+                else:
+                    currentnode = node.next
+                if currentnode.value == val:
+                    lastnode.next = currentnode.next
                     return
-            elif currentNode.next == None:
-                return None
-            node = node.next
+                else:
+                    node = node.next
+        elif all == True:
+            if node.value == val:
+                self.head = node.next
+            while True:
+                lastnode = node
+                if node.next == None:
+                    break
+                else:
+                    currentnode = node.next
+                if currentnode.value == val:
+                    lastnode.next = currentnode.next
+                else:
+                    node = node.next
 
 # s_list = LinkedList()
 # s_list.add_in_tail(Node(12))
