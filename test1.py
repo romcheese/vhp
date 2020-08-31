@@ -74,7 +74,7 @@ class LinkedList:
     def delete(self, val, all = True or False):
         node = self.head
         if node == None: # empty linked list
-            return None
+            return
         if all == False:
             if node.value == val:
                 self.head = node.next # correct
