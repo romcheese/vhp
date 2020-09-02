@@ -31,8 +31,7 @@ def test0_2():
 # Tests:
 def test1_1():# Удаляем элемент в пустом списке - correct
     s.delete(25, False)
-
-    print('Test 1:')
+    
     if s.head == None and s.tail == None:
         print('1.1 correct')
         s.clean()
