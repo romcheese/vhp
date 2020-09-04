@@ -63,7 +63,7 @@ class LinkedList:
             return
 
 
-    def delete(self, val, all = False or True):
+    def delete(self, val, all = None):
         node = self.head
 
         if node == None: # пустой список
