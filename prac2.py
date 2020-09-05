@@ -29,3 +29,4 @@ def odometer(*args):
                 result += (distance*(array[i]-lasttime))
                 lasttime = array[i]
         return result
+    return None
