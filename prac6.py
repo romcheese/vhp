@@ -47,6 +47,8 @@ def PatternUnlock(*args):
             break
         if hints[i] == 6 and i_next == 7:
             length += vert * 2
+        elif hints[i] == 7 and i_next == 6:
+            length += vert * 2
         elif i_next in horizvert[hints[i]]:
             length += horiz
         else:
