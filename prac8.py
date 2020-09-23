@@ -1,4 +1,5 @@
 # n >= 2
+# https://skillsmart.ru/algo/lvl1/s60b.html
 def SumOfThe(*args):
     n = args[0]
 
