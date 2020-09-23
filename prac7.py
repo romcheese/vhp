@@ -40,9 +40,5 @@ def WordSearch(leng, string, subs):
             zeroes_ones.append(1)
         else:
             zeroes_ones.append(0)
-
-    string = ''
-    for elem in zeroes_ones:
-        string += str(elem)
-
-    return string
+            
+    return zeroes_ones
