@@ -1,3 +1,4 @@
+#https://skillsmart.ru/algo/lvl1/6d4d.html
 def WordSearch(leng, string, subs):
 
     words = string.split()
