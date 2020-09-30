@@ -1,4 +1,4 @@
-s = 'отдай мою кроличью лапку...'
+# s = 'отдай мою кроличью лапку...'
 # s = 'омоюу толл дюиа акчп йрьк...'
 # https://skillsmart.ru/algo/lvl1/ab53.html
 
@@ -68,6 +68,6 @@ def TheRabbitsFoot(s, encode: bool):
 #
 #
 #
-# #
-x = TheRabbitsFoot(s, True)
-print(x)
+# # #
+# x = TheRabbitsFoot(s, True)
+# print(x)
