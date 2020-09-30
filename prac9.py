@@ -4,6 +4,7 @@
 
 def TheRabbitsFoot(s, encode: bool):
     if encode == True:
+        s = s.replace('.', '')
         s = s.replace(' ', '')
         l = len(s)**0.5
         lb = len(s) // l # lower border
