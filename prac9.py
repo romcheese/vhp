@@ -4,7 +4,7 @@
 
 def TheRabbitsFoot(s, encode: bool):
     if type(s) != str  or type(encode) != bool:
-        return None
+        return 'null/none'
     if encode == True:
         for i in s:
             if i.isalpha() == False:
