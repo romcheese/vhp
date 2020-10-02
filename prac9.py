@@ -3,6 +3,8 @@
 # https://skillsmart.ru/algo/lvl1/ab53.html
 
 def TheRabbitsFoot(s, encode: bool):
+    if type(s) != str  or type(encode) != bool:
+        return None
     if encode == True:
         for i in s:
             if i.isalpha() == False:
