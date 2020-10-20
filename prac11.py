@@ -52,7 +52,7 @@ def BigMinus(s1, s2):
 
         s = int(s)
         s = str(s)
-        return type(s)
+        return s
 
     elif equal == True:
 
