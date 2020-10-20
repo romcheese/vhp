@@ -86,8 +86,7 @@ def BigMinus(s1, s2):
         s = str(s)
         return s
 
-x = BigMinus('1234567891', '1')
-print(x)
+
 
 #
 # x = BigMinus(s1, s2)
