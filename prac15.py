@@ -13,7 +13,6 @@ def TankRush(H1,W1,S1,H2,W2,S2):
                     f = arr1[i+y][x:x+W2]
                     check_arr.append(str(f))
                 if check_arr == arr2:
-                    print(check_arr)
                     return True
                 else:
                     check_arr.clear()
