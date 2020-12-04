@@ -20,9 +20,6 @@ def MisterRobot(*args):
             if data in checked and data != sorted(data):
                 return False
             checked.append(data)
-
-
-
         else:
             return True
 
