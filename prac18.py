@@ -13,10 +13,7 @@ def MisterRobot(*args):
                 c = data[i:i+3]
                 if sorted(c) != c:
                     for k in range(3):
-                        try:
-                            ch = [c[k], c[k-2], c[k-1]]
-                        except IndexError:
-                            break
+                        ch = [c[k], c[k-2], c[k-1]]
                         if ch == sorted(c):
                             data[i:i+3] = ch
                             break
