@@ -16,6 +16,7 @@ def MisterRobot(*args):
                         ch = [c[k], c[k-2], c[k-1]]
                         if ch == sorted(c):
                             data[i:i+3] = ch
+                            break
             if data in checked and data != sorted(data):
                 return False
             checked.append(data)
