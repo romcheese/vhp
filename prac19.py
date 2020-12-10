@@ -22,8 +22,7 @@ def ShopOLAP(*args):
     while m != -1:
         for k, v in sd_items.items():
             if v == m:
-                x = f'{k} {v}'
-                result.append(x)
+                result.append(f'{k} {v}')
                 sd_items[k] = -1
         m = max(sd_items.values())
     return result
