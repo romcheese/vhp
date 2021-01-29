@@ -52,146 +52,146 @@ def BastShoe(str:str):
         return cache[-1]
 
 
-#
-# 1 Привет
-# В текущей строке будет "Привет"
-# 1  , Мир!
-# Привет, Мир!
-# 1 ++
-# Привет, Мир!++
-# 2 2
-# Привет, Мир!
-# 4
-# Привет, Мир!++
-# 4
-# Привет, Мир!
-# 1 *
-# Привет, Мир!*
-# 4
-# Привет, Мир!
-# 4
-# Привет, Мир!
-# 4
-z = '1 Привет'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '1 , Мир!'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '1 ++'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '2 2'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '1 *'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '3 6'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '2 100'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '1 Привет'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '1 , Мир!'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '1 ++'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '5'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '5'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '5'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '5'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '5'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '2 2'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '4'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '5'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '5'
-x = BastShoe(z)
-print(z)
-print(x)
-z = '5'
-x = BastShoe(z)
-print(z)
-print(x)
+# #
+# # 1 Привет
+# # В текущей строке будет "Привет"
+# # 1  , Мир!
+# # Привет, Мир!
+# # 1 ++
+# # Привет, Мир!++
+# # 2 2
+# # Привет, Мир!
+# # 4
+# # Привет, Мир!++
+# # 4
+# # Привет, Мир!
+# # 1 *
+# # Привет, Мир!*
+# # 4
+# # Привет, Мир!
+# # 4
+# # Привет, Мир!
+# # 4
+# z = '1 Привет'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '1 , Мир!'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '1 ++'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '2 2'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '1 *'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '3 6'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '2 100'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '1 Привет'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '1 , Мир!'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '1 ++'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '5'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '5'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '5'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '5'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '5'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '2 2'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '4'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '5'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '5'
+# x = BastShoe(z)
+# print(z)
+# print(x)
+# z = '5'
+# x = BastShoe(z)
+# print(z)
+# print(x)
     # здесь вставляем проверку на корректность
     # if act == '1' or act == '2':
     #     x = cache.pop()
