@@ -1,7 +1,7 @@
 
 # TreeOfLife(3,4, 12, [".+..","..+.",".+.."])
 # h-height, w-width, n-kolichestvo strok, tree-исходный список веток
-def TreeOfLife(H:int, W:int, N:int, tree:list):
+def TreeOfLife(H:int, W:int, N:int, tree):
     d = 0
     tr = []
     for v in tree:
