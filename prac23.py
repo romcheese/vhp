@@ -25,7 +25,7 @@ def TreeOfLife(H:int, W:int, N:int, tree:list):
             for y in range(W): # рассматриваем элементы поочередно
                 elem = vetka[y]
                 if elem >= 3:
-                    try:
+                    try: # решение не изящное, но пока что успеваю так
                         vetka[y] = 0
                         if vetka[y-1] < 3:
                             vetka[y-1] = 0
