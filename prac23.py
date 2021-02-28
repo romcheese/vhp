@@ -16,6 +16,7 @@ def TreeOfLife(H:int, W:int, N:int, tree:list):
 
     while d != N:
         d += 1
+
         for v in tree: # старение
             for i in range(len(v)):
                 v[i] += 1
@@ -29,16 +30,22 @@ def TreeOfLife(H:int, W:int, N:int, tree:list):
                     if elem >= 3:
                         try:
                             vetka[y] = 0
-                            if vetka[y-1] < 3 and (y-1) >= 0:
-                                vetka[y-1] = 0
-                            if vetka[y+1] < 3 and (y+1) >= 0:
-                                vetka[y+1] = 0
-                            if tree[i+1][y] < 3 and (i+1) >= 0:
-                                tree[i+1][y] = 0
-                            if tree[i-1][y] < 3 and (i-1) >= 0:
-                                tree[i-1][y] = 0
+                            left = vetka[y-1]
+                            right = vetka[y+1]
+                            up = tree[i-1][y]
+                            down = tree[i+1][y]
+                            if y - 1 >= 0  and left < 3:
+                                left = 0
+                            if y + 1 <= W and right < 3:
+                                right = 0
+                            if y - 1 >= 0 and up < 3:
+                                up = 0
+                            if y + 1 <= H and down < 3:
+                                down = 0
                         except IndexError:
                             pass
+
+
     tr = []
     for v in tree:
         vetka = ''
@@ -52,5 +59,6 @@ def TreeOfLife(H:int, W:int, N:int, tree:list):
 
 #
 #
-#x = TreeOfLife(6,7, 2, [".......","...+...","....+..",".......","++.....","++....."])
-#print(x)
+# x = TreeOfLife(6, 7, 24, [".......","...+...","....+..",".......","++.....","++....."])
+# x = TreeOfLife(3,4, 12, [".+..","..+.",".+.."])
+# print(x)
