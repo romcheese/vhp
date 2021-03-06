@@ -18,7 +18,7 @@ def MatrixTurn(matrix, M, N, T):
         for i in range(s): # третья переменная для алгоритма
             el.append(m[i][i])
         for i in range(s): # переключаем траектории змейки
-            horiz = N-i-1
+            horiz = N-i*2-1
             vert = M-i-1
             for x in range(i, horiz):
                 m[i][x+1],el[i] = el[i],m[i][x+1]
