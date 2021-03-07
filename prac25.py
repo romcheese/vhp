@@ -15,7 +15,7 @@ def TransformTransform(A, N):
                     pass
         return B
 
-    x = Transform(a, len(a))
+    x = Transform(A, len(A))
     y = sum(Transform(x, len(x)))
 
     if y%2 == 0:
