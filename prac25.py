@@ -4,7 +4,8 @@
 # результата двойной трансформации A чётная.
 # А - массив случайных положительных чисел (могут повторяться)
 def TransformTransform(A, N):
-    def Transform(A, N):
+    def Transform(A):
+        N = len(A)
         B = []
         for i in range(N):
             for j in range(N-i):
@@ -15,8 +16,8 @@ def TransformTransform(A, N):
                     pass
         return B
 
-    x = Transform(A, len(A))
-    y = sum(Transform(x, len(x)))
+    x = Transform(A)
+    y = sum(Transform(x))
 
     if y%2 == 0:
         return True
