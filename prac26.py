@@ -20,7 +20,7 @@ def BalancedParentheses(N):
         ### здесь надо удалить первые два элемента из elems
         return ' '.join(elems[2:])
     try:
-        for i in range(z):
+        for i in range(2):
             el_o, el_t = list(elems[i]), list(elems[i])
             el_o.insert(N, '()')
             el_t.insert(N*2, '()')
