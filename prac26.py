@@ -10,8 +10,10 @@ def BalancedParentheses(N):
         check = True
         x = '('*(N-1)+')'*(N-1)
         y = '()'*(N-1)
+        h = '('+(N-1)*'()'+')'
         elems.append(x)
         elems.append(y)
+        elems.append(h)
 
     if N < -2:
         ### здесь надо удалить первые два элемента из elems
