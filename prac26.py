@@ -18,7 +18,7 @@ def BalancedParentheses(N):
 
     if N < -1:
         ### здесь надо удалить первые два элемента из elems
-        return ' '.join(elems[2:])
+        return ' '.join(elems[2:]).strip()
 
     for i in range(2):
         a = elems[i][:N]+'()'+elems[i][N:]
