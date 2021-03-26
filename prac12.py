@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/cb0f.html
+
 def MassVote(N, Votes):
     all = sum(Votes)
     percents = []
