@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/beea.html
+
 # 400, 350, 300, 250, 200,150 ,100
 # int MaximumDiscount(int N, int [] price)
 def MaximumDiscount(*args):
