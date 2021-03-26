@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/b7de.html
+
 
 def SherlockValidString(s:str):
     letters = []
