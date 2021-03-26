@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/z75c.html
+
 cache = ['']
 redo_cache = []
 def BastShoe(str:str):
