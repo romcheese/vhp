@@ -1,5 +1,5 @@
 # 10, 2, [[3,5,5], [5,2,2]]
-# https://skillsmart.ru/algo/lvl1/a9d8.html
+
 def Unmanned(L:int, N:int, track:list):
 
     lights = {}
