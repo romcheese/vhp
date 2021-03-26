@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/f27e.html
+
 from itertools import permutations
 
 def BiggerGreater(s:str):
