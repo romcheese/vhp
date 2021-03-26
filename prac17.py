@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/d146.html
+
 # *..*...*..*..*..*..*
 # *..*..*..*..*..**..*
 # correct:
