@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/b519.html
+
 # не рассматриваем вариант, где на входе на args[1] - строка
 def ShopOLAP(*args):
     items = args[1]
