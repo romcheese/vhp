@@ -1,5 +1,5 @@
 # int [] UFO(int N, int [] data, bool octal)
-# https://skillsmart.ru/algo/lvl1/3b3d.html
+
 
 def UFO(*args):
     
