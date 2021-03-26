@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/off8.html
+
 def TankRush(H1,W1,S1,H2,W2,S2):
     arr1 = S1.split()
     arr2 = S2.split()
