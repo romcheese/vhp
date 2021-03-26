@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/d83i.htmlå
+
 
 def MatrixTurn(matrix, M, N, T):
     global Matrix
