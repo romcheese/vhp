@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/f8c6.html
+
 
 def MisterRobot(*args):
     if isinstance(args[1], int):
