@@ -1,4 +1,4 @@
-# https://skillsmart.ru/algo/lvl1/z3b8.html
+
 
 # int, int
 # int, list
