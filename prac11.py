@@ -1,5 +1,5 @@
 # Нарушен принцип повторяемости кода из-за спешки
-# https://skillsmart.ru/algo/lvl1/s81f.html
+
 
 
 def BigMinus(s1, s2):
